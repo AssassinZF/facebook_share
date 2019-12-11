@@ -40,7 +40,7 @@
         
         dialog.shareContent = content;
         dialog.delegate = self;
-        dialog.mode = FBSDKShareDialogModeAutomatic;
+        dialog.mode = FBSDKShareDialogModeNative;
         
         [dialog show];
         
